@@ -1,10 +1,15 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('police/monofonto.otf') format('truetype');
+}
+
 body {
     margin-top: 60px;
     color: white;
     background-image: url('illustrations/background.jpg');
     background-size: cover;
     background-position: center;
-    font-family: Arial;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
 }
 
 .sidebar {
