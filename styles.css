@@ -4,11 +4,11 @@
 }
 
 body {
-    margin-top: 60px;
+    margin-top: 50px;
     color: white;
     background-image: url('illustrations/background.jpg');
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:top;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
 }
 
@@ -35,24 +35,36 @@ body {
 .sidebar ul li a {
     color: #ffffff; /* Couleur du texte */
     text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
 }
 
 .sidebar ul li a:hover {
-    background-color: #5f0034; /* Couleur de fond au survol */
+    background-color: #1f2f64; /* Couleur de fond au survol */
+    padding: 8px;
+    border-radius: 15px;
 }
 
-.title {
-    height: 30px;
-    position: absolute;
-    top: 50;
-    left: 10;
+.overlayTitre {
+    background-color: #1c1c1cd0;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 20px;
     width: auto;
-    color: black;
 }
 
-.title p1 {
-    height: 12px;
-    padding: 2px;
+.overlayTexte {
+    background-color: #1c1c1cd0;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 20px;
+    width: auto;
 }
 
 .content {
