@@ -67,6 +67,24 @@ body {
     width: auto;
 }
 
+.bouton {
+    background-color: #2a418d;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 20px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.bouton:hover {
+    background-color: #1f2f64; /* Couleur de fond au survol */
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .content {
     margin-top: 0px; /* Marge en haut pour éviter de chevaucher le volet de navigation */
     padding: 20px;
