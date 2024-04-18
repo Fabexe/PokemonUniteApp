@@ -13,8 +13,8 @@ body {
 }
 
 .sidebar {
-    height: 50px; /* Hauteur du volet de navigation */
-    background-color: #8a1a69; /* Couleur de fond */
+    height: 40px; /* Hauteur du volet de navigation */
+    background-color: #2a418d; /* Couleur de fond */
     position: fixed;
     top: 0;
     left: 0;
@@ -39,6 +39,20 @@ body {
 
 .sidebar ul li a:hover {
     background-color: #5f0034; /* Couleur de fond au survol */
+}
+
+.title {
+    height: 30px;
+    position: absolute;
+    top: 50;
+    left: 10;
+    width: auto;
+    color: black;
+}
+
+.title p1 {
+    height: 12px;
+    padding: 2px;
 }
 
 .content {
