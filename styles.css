@@ -1,0 +1,33 @@
+.sidebar {
+    height: 50px; /* Hauteur du volet de navigation */
+    background-color: #8a1a69; /* Couleur de fond */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    display: inline-block; /* Affichage en ligne pour les éléments de liste */
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    color: #ffffff; /* Couleur du texte */
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #5f0034; /* Couleur de fond au survol */
+}
+
+.content {
+    margin-top: 0px; /* Marge en haut pour éviter de chevaucher le volet de navigation */
+    padding: 20px;
+}
