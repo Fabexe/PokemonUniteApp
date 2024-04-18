@@ -1,3 +1,12 @@
+body {
+    margin-top: 60px;
+    color: white;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+}
+
 .sidebar {
     height: 50px; /* Hauteur du volet de navigation */
     background-color: #8a1a69; /* Couleur de fond */
