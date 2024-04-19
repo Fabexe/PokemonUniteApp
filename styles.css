@@ -6,9 +6,9 @@
 body {
     margin-top: 50px;
     color: #1d2d61;
-    background-image: url('illustrations/background1.jpg');
-    background-size:cover;
-    background-position:top;
+    background-image: url('illustrations/background.jpg');
+    background-size:initial;
+    background-position:center;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
 }
 
@@ -62,6 +62,18 @@ body {
     color: white;
     padding: 10px;
     text-decoration: none;
+    text-align: justify;
+    font-size: 15px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.overlayTableau {
+    background-color: #1c1c1cd0;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
     font-size: 15px;
     border-radius: 20px;
     width: auto;
@@ -83,6 +95,102 @@ body {
     background-color: #1f2f64; /* Couleur de fond au survol */
     padding: 10px;
     border-radius: 20px;
+}
+
+.presentation_poke {
+    background-color: #1c1c1cd0;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.rouge {
+    background-color: #ca1313;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.bleu {
+    background-color: #2a418d;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.bleu_clair {
+    background-color: #178db1;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.vert {
+    background-color: #29a500;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.jaune {
+    background-color: #f2dc1c;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.violet {
+    background-color: #9227a0;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.orange {
+    background-color: #cd5c00;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
 }
 
 .content {
