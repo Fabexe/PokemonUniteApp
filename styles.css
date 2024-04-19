@@ -5,8 +5,8 @@
 
 body {
     margin-top: 50px;
-    color: white;
-    background-image: url('illustrations/background.jpg');
+    color: #1d2d61;
+    background-image: url('illustrations/background1.jpg');
     background-size:cover;
     background-position:top;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
