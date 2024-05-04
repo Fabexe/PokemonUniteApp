@@ -17,8 +17,7 @@
     text-align: center;
     font-size: 30px;
     border-radius: 20px;
-    width: 350px;
-    margin-right: 10px;
+    width: 360px;
     margin-bottom: 10px;
 }
 
@@ -43,4 +42,8 @@
     font-size: 15px;
     border-radius: 20px;
     width: 1000px;
+}
+
+.espacement {
+    width: 10px;
 }
