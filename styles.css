@@ -16,6 +16,7 @@ body {
     height: 40px; /* Hauteur du volet de navigation */
     background-color: #2a418d; /* Couleur de fond */
     position: fixed;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -95,18 +96,6 @@ body {
     background-color: #1f2f64; /* Couleur de fond au survol */
     padding: 10px;
     border-radius: 20px;
-}
-
-.presentation_poke {
-    background-color: #1c1c1cd0;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 20px;
-    width: auto;
 }
 
 .rouge {
