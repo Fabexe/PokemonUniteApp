@@ -7,8 +7,8 @@ body {
     margin-top: 50px;
     color: #1d2d61;
     background-image: url('illustrations/background.jpg');
-    background-size:initial;
-    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
 }
 
