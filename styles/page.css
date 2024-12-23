@@ -54,19 +54,20 @@ body {
 
 /* ----- Bouton ----- */
 .bouton {
-    background-color: #2a418d;
+    background-color: #4a85f3;
     border: none;
     color: white;
     padding: 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 20px;
-    width: auto;
+    width: fit-content;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
+    margin: auto;
 }
 
 .bouton:hover {
-    background-color: #1f2f64; 
+    background-color: #4a4df3; 
     padding: 10px;
     border-radius: 20px;
 }
