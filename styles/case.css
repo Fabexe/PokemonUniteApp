@@ -1,0 +1,23 @@
+.titre {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000ab;
+    padding: 1px;
+    max-width: 1000px;
+    margin: 0 auto; /* This will center the element horizontally */
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.ligne {
+    font-size: 14px;
+    text-align: justify;
+    color: #ffffff;
+    background-color: #000000ab;
+    padding: 10px;
+    max-width: 983px;
+    margin: 0 auto; /* This will center the element horizontally */
+    border-radius: 15px;
+    margin-bottom: 20px;
+}

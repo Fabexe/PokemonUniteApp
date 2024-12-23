@@ -10,7 +10,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
-    
 }
 
 /* ----- Barre de navigation ----- */
@@ -26,6 +25,7 @@ body {
     top: 20px;
     width:fit-content;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .nav_bar ul {
