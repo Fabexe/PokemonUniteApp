@@ -21,3 +21,35 @@
     border-radius: 15px;
     margin-bottom: 20px;
 }
+
+.tableau {
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px;
+    max-width: 983px;
+    margin: 0 auto; /* This will center the element horizontally */
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-collapse: collapse; /* Ensure borders are collapsed */
+    background-color: #2c2c2c; /* Dark background for the table */
+}
+
+.tableau, .tableau th, .tableau td {
+    border: 1px solid #797979; /* Dark gray border */
+}
+
+.tableau th {
+    background-color: #444444; /* Darker background for headers */
+    color: #ffffff;
+    padding: 10px;
+}
+
+.tableau tr:nth-child(even) {
+    background-color: #3a3a3a; /* Alternate row color */
+}
+
+.tableau td {
+    padding: 10px;
+    background-color: transparent; /* Make table cells transparent */
+}
